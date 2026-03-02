@@ -1,0 +1,22 @@
+body { font-family: sans-serif; background: #222; color: white; text-align: center; }
+.game-container { margin-top: 50px; }
+#pista { width: 80%; margin: 20px auto; background: #444; border-right: 5px dashed gold; padding: 10px; }
+.lane { height: 50px; border-bottom: 1px solid #666; position: relative; display: flex; align-items: center; }
+.emoji { position: absolute; font-size: 30px; transition: left 0.5s ease; left: 0%; }
+.status-board { background: #333; padding: 20px; border-radius: 10px; display: inline-block; }
+
+
+#btn-reiniciar {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-reiniciar:hover {
+    background-color: #218838;
+}

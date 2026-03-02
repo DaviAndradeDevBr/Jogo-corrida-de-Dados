@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Corrida de Dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🏁 Corrida de Dados 🎲</h1>
+        <div id="pista">
+            <div class="lane"><span id="p-player" class="emoji">🏎️</span></div>
+            <div class="lane"><span id="p-cpu" class="emoji">🤖</span></div>
+        </div>
+        
+        <div class="status-board">
+            <p id="msg">Pressione <strong>Enter</strong> para começar!</p>
+            <p>Sua Posição: <span id="pos-player">0</span> / 30</p>
+            <p>Posição CPU: <span id="pos-cpu">0</span> / 30</p>
+        
+            <button id="btn-reiniciar" style="display:none;">Jogar Novamente</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

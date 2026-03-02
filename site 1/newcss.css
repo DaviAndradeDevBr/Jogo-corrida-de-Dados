@@ -1,0 +1,44 @@
+
+
+::file-selector-button {transition-property: value;}
+p {
+    font-size: 15pt; 
+    color: blue;
+
+}
+
+p.right {text-align: right;}
+p.left {text-align: left;}
+p.center {text-align: center;}
+
+.center {text-align: center;}
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%; 
+}
+
+  td, th {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+a:link {
+    color: darkorange;
+
+}
+
+a:visited {
+    color: darkgreen;
+
+}
+
+a:hover {
+    color: darkred;
+
+}
+
+
+
+
